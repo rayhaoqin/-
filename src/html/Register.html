@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>注册页</title>
+    <link rel="stylesheet" type="text/css" href="../css/base.css" />
+    <link rel="stylesheet" type="text/css" href="../css/Register.css" />
+    <style>
+      .input-val {
+        width: 200px;
+        height: 32px;
+        border: 1px solid #ddd;
+        box-sizing: border-box;
+      }
+      #canvas {
+        vertical-align: middle;
+        box-sizing: border-box;
+        border: 1px solid #ddd;
+        cursor: pointer;
+      }
+      .btn {
+        display: block;
+        margin-top: 20px;
+        height: 32px;
+        width: 100px;
+        font-size: 16px;
+      }
+    </style>
+</head>
+<body>
+    <div id="top">
+        <div class="top container">
+            <a href="../index.html">
+                <img src="../img/logo_l.jpg" height="61" width="421" alt="" />
+            </a>
+        </div>
+    </div>
+    <div id="main">
+        <div class="main container">
+            <div class="back clearfix">
+                <a href="../index.html">返回首页</a>
+            </div>
+            <div class="zhuce clearfix">
+                <div class="zhucet">
+                    名鞋库用户注册
+                </div>
+                <form action="#" class="clearfix">
+                    <div class="zhucel fl">
+                        <label for="#uname">用户名: </label><input type="text" id="uname" /><div id="show"></div><br />
+                        <label for="#upwd">密码:</label><input type="password" id="upwd" /><div id="show"></div><br />
+                        <label for="#upwds">确认密码:</label><input type="password" id="upwds" /><div id="show"></div><br />
+                        <label for="yanzhengma">验证码:</label><input type="text" value="" placeholder="请输入验证码（不区分大小写）" class="input-val">
+        <canvas id="canvas" width="100" height="30"></canvas>
+        <button class="btn">提交</button><br />
+                        <input type="checkbox"  id="ty" /><label for="#ty" style="width:90px;font-size:12px;text-align:left;">我已阅读并同意</label><a href="#" style="font-size:12px;">名鞋库会员注册协议。</a><br />
+                        <input type="button" value="注册新用户" id="btn" disabled="true" />
+                    </div>
+                    <div class="zhucer fl">
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <b style="font-size:14px;">已有名鞋库账号？</b><br />
+                        <a href="Login.html" class="returnlogin" id="fast_reg_login" style="margin:14px 0 14px 0">现在登录</a><br />
+                        <img src="../img/loginbnext.png" height="38" width="165" alt="" />
+                    </div>
+                </form>
+                
+            </div>
+        </div>
+    </div>
+    <div class="foot" style="border-top:2px solid #CE3C3B;background:none"> <div class="row02 c777"> <span> <a target="_blank" href="//www.s.cn/page-aboutus.html">关于名鞋库</a>&nbsp;|&nbsp;<a target="_blank" href="/page-aboutcontact.html">联系名鞋库</a>&nbsp;|&nbsp;<a target="_blank" href="/page-scnjob.html">人才招聘</a>&nbsp;|&nbsp;<a target="_blank" href="/page-Disclaimer.html">免责条款</a>&nbsp;|&nbsp;<a target="_blank" href="/page-Copyright.html">法律声明</a>&nbsp;|&nbsp;<a target="_blank" href="/message.html">客户留言</a>&nbsp;|&nbsp;<a target="_blank" href="/suggest.html">意见反馈</a>&nbsp;|&nbsp;<a target="_blank" href="/page-Sitemap.html">全部分类</a>&nbsp;|&nbsp;<a target="_blank" href="/link-showList.html">友情链接</a>&nbsp;|&nbsp;<a target="_blank" href="/page-chimahedui.html">鞋子尺码对照表</a>&nbsp;|&nbsp;<a target="_blank" href="http://faq.s.cn">问答</a><a target="_blank" href="//www.s.cn/qalist.html">咨询</a><a target="_blank" href="//www.s.cn/review.html">评论</a><a target="_blank" href="//www.s.cn/topic/">主题</a>&nbsp;|&nbsp;<a target="_blank" href="//www.s.cn/page-brandhall.html">鞋子品牌大全</a>&nbsp;|&nbsp;<a target="_blank" href="//www.s.cn/pa.html">商品大全</a> </span> <div class="cl"> </div> Copyright&nbsp;©&nbsp;2008-2014 <s>s.cn </s> All Rights Reserved.&nbsp;&nbsp;&nbsp;&nbsp; <a target="_blank" href="http://www.miibeian.gov.cn" rel="nofollow">闽ICP备08106896号 </a> &nbsp;&nbsp;&nbsp;&nbsp;经营许可证闽B2-20110061 </div> </div>
+
+
+
+
+    <script src="../js/Register.js"></script>
+    <script src="../js/jquery-3.0.0.js"></script>
+    <script src="../js/yanzhengma.js"></script>
+</body>
+</html>

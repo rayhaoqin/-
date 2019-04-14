@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>商品详情页</title>
+     <link rel="stylesheet" type="text/css" href="../css/base.css" />
+     <link rel="stylesheet" type="text/css" href="../css/xiangqing.css" />
+     <script src="../js/jquery-3.0.0.js"></script>
+    <script type="text/javascript" src="../js/common.js"></script>
+    <script type="text/javascript" src="../js/xiangqing.js"></script>
+    <script type="text/javascript" src="../js/xiangqingcar.js"></script>
+        <script type="text/javascript" src="../js/joincar.js"></script>
+</head>
+<body>
+    
+    <div id="top">
+        <div class="top">
+            <ul>
+                <li class="user">
+                <a href="Login.html" class="a1">欢迎登录名鞋库</a>
+                <a href="Register.html" class="a1">免费注册</a>
+                </li>
+                <li><a href="#">我的名鞋库<i class="i1"></i></a></li>
+                <li><a href="#"><i class="i2"></i>手机名鞋库<i class="i5"></i></a></li>
+                <li><a href="#">收藏名鞋库</a></li>
+                <li><a href="#"><i class="i3"></i>名鞋库客服</a></li>
+                <li style="text-align:center;font-size:16px;line-height:26px;"><i class="i4"></i>400 116 2228</li>
+            </ul>        
+        </div>       
+    </div>
+    <div id="logo">
+        <div class="logo container">
+            <div class="logo_l fl">
+                <a class="a6" href="#"><i><img src="../img/logo_l.jpg" height="61" width="421" alt="" /></i></a>
+            </div>
+            <div class="logo_c fl">
+                <form action="#">
+                    <input type="text" placeholder="帆布鞋"/><input type="button" value="搜索" />
+                </form>
+                <ul class="ulogo">
+                    <li><a style="color:#CECECE;" href="#">热搜：</a></li>
+                    <li><a href="#">耐克</a></li>
+                    <li><a href="#">耐克</a></li>
+                    <li><a href="#">耐克</a></li>
+                    <li><a href="#">耐克</a></li>
+                    <li><a href="#">耐克</a></li>
+                    <li><a href="#">耐克</a></li>
+                    <li><a href="#">耐克</a></li>
+                </ul>
+            </div>
+            <div class="logo_r fr">
+                <a style="background" href="#">
+                    <i></i>
+                    购物车
+                    <span style="color:red;">0</span>
+                    件
+                </a>
+                <div class="logo_rb">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="nav">
+        <div class="nav">
+            <div class="nav_l fl">
+            <ul class="fl nav_ul1">
+                <li class="nav_ll" >
+                    <span class="nav_ll1">所有商品分类</span>
+                    <ul class="nav_lerul">
+                        <li>
+                        <i><img src="../img/nav_erji.png" height="500" width="25" alt="" /></i>运动休闲鞋
+                        <ul id="nav_sjul">
+                            <li>
+                            <i></i>运动男鞋
+                            
+                            </li>
+                            <a href="#">男休闲鞋</a>
+                            <a href="#">卫衣</a>
+                            <a href="#">夹克</a>
+                            <a href="#">运动裤</a>
+                            <li>
+                            <i><img src="" alt="" /></i>运动女鞋
+                            </li>
+                            <a href="#">长袖</a>
+                            <a href="#">卫衣</a>
+                            <a href="#">夹克</a>
+                            <a href="#">运动裤</a>
+                            <li><i><img src="" alt="" /></i>搜索热词</li><a href="#">长袖</a>
+                            <a href="#">卫衣</a>
+                            <a href="#">夹克</a>
+                            <a href="#">运动裤</a>
+                            <li><i><img src="" alt="" /></i>热门系列</li><a href="#">长袖</a>
+                            <a href="#">卫衣</a>
+                            <a href="#">夹克</a>
+                            <a href="#">运动裤</a>
+                        </ul>
+                        </li>
+                        <li>
+                        <i><img src="../img/nav_erji.png" alt="" /></i>男鞋
+                        <ul id="nav_sjul">
+                            <li>
+                            <i><img src=""  alt="" /></i>运动男鞋
+                            
+                            </li>
+                            <a href="#">长袖</a>
+                            <a href="#">卫衣</a>
+                            <a href="#">夹克</a>
+                            <a href="#">运动裤</a>
+                            <li>
+                            <i><img src="../img/" alt="" /></i>运动女鞋
+                            </li>
+                            <a href="#">长袖</a>
+                            <a href="#">卫衣</a>
+                            <a href="#">夹克</a>
+                            <a href="#">运动裤</a>
+                            <li><i><img src="../img/" alt="" /></i>搜索热词</li><a href="#">长袖</a>
+                            <a href="#">卫衣</a>
+                            <a href="#">夹克</a>
+                            <a href="#">运动裤</a>
+                            <li><i><img src="../img/" alt="" /></i>热门系列</li><a href="#">长袖</a>
+                            <a href="#">卫衣</a>
+                            <a href="#">夹克</a>
+                            <a href="#">运动裤</a>
+                        </ul>
+                        </li>
+                        <li>
+                        <i><img src="../img/nav_erji.png" alt="" /></i>运动休闲服
+                        <ul id="nav_sjul">
+                            <li>
+                            <i><img src=""  alt="" /></i>运动男鞋
+                            
+                            </li>
+                            <a href="#">长袖</a>
+                            <a href="#">卫衣</a>
+                            <a href="#">夹克</a>
+                            <a href="#">运动裤</a>
+                            <li>
+                            <i><img src="" alt="" /></i>运动女鞋
+                            </li>
+                            <a href="#">长袖</a>
+                            <a href="#">卫衣</a>
+                            <a href="#">夹克</a>
+                            <a href="#">运动裤</a>
+                            <li><i><img src="" alt="" /></i>搜索热词</li><a href="#">长袖</a>
+                            <a href="#">卫衣</a>
+                            <a href="#">夹克</a>
+                            <a href="#">运动裤</a>
+                            <li><i><img src="" alt="" /></i>热门系列</li><a href="#">长袖</a>
+                            <a href="#">卫衣</a>
+                            <a href="#">夹克</a>
+                            <a href="#">运动裤</a>
+                        </ul>
+                        </li>
+                        <li>
+                        <i><img src="../img/nav_erji.png" alt="" /></i>跑步
+                        <ul id="nav_sjul">
+                            <li>
+                            <i><img src=""  alt="" /></i>运动男鞋
+                            
+                            </li>
+                            <a href="#">长袖</a>
+                            <a href="#">卫衣</a>
+                            <a href="#">夹克</a>
+                            <a href="#">运动裤</a>
+                            <li>
+                            <i><img src="" alt="" /></i>运动女鞋
+                            </li>
+                            <a href="#">长袖</a>
+                            <a href="#">卫衣</a>
+                            <a href="#">夹克</a>
+                            <a href="#">运动裤</a>
+                            <li><i><img src="" alt="" /></i>搜索热词</li><a href="#">长袖</a>
+                            <a href="#">卫衣</a>
+                            <a href="#">夹克</a>
+                            <a href="#">运动裤</a>
+                            <li><i><img src="" alt="" /></i>热门系列</li><a href="#">长袖</a>
+                            <a href="#">卫衣</a>
+                            <a href="#">夹克</a>
+                            <a href="#">运动裤</a>
+                        </ul>
+                        </li>
+                        <li>
+                        <i><img src="../img/nav_erji.png" alt="" /></i>篮球
+                        <ul id="nav_sjul">
+                            <li>
+                            <i><img src=""  alt="" /></i>运动男鞋
+                            
+                            </li>
+                            <a href="#">长袖</a>
+                            <a href="#">卫衣</a>
+                            <a href="#">夹克</a>
+                            <a href="#">运动裤</a>
+                            <li>
+                            <i><img src="" alt="" /></i>运动女鞋
+                            </li>
+                            <a href="#">长袖</a>
+                            <a href="#">卫衣</a>
+                            <a href="#">夹克</a>
+                            <a href="#">运动裤</a>
+                            <li><i><img src="" alt="" /></i>搜索热词</li><a href="#">长袖</a>
+                            <a href="#">卫衣</a>
+                            <a href="#">夹克</a>
+                            <a href="#">运动裤</a>
+                            <li><i><img src="" alt="" /></i>热门系列</li><a href="#">长袖</a>
+                            <a href="#">卫衣</a>
+                            <a href="#">夹克</a>
+                            <a href="#">运动裤</a>
+                        </ul>
+                        </li>
+                        <li>
+                        <i><img src="../img/nav_erji.png" alt="" /></i>足球
+                        <ul id="nav_sjul">
+                            <li>
+                            <i><img src=""  alt="" /></i>运动男鞋
+                            
+                            </li>
+                            <a href="#">长袖</a>
+                            <a href="#">卫衣</a>
+                            <a href="#">夹克</a>
+                            <a href="#">运动裤</a>
+                            <li>
+                            <i><img src="" alt="" /></i>运动女鞋
+                            </li>
+                            <a href="#">长袖</a>
+                            <a href="#">卫衣</a>
+                            <a href="#">夹克</a>
+                            <a href="#">运动裤</a>
+                            <li><i><img src="" alt="" /></i>搜索热词</li><a href="#">长袖</a>
+                            <a href="#">卫衣</a>
+                            <a href="#">夹克</a>
+                            <a href="#">运动裤</a>
+                            <li><i><img src="" alt="" /></i>热门系列</li><a href="#">长袖</a>
+                            <a href="#">卫衣</a>
+                            <a href="#">夹克</a>
+                            <a href="#">运动裤</a>
+                        </ul>
+                        </li>
+                        <li>
+                        <i><img src="../img/nav_erji.png" alt="" /></i>包包/配件
+                        <ul id="nav_sjul">
+                            <li>
+                            <i><img src=""  alt="" /></i>运动男鞋
+                            
+                            </li>
+                            <a href="#">长袖</a>
+                            <a href="#">卫衣</a>
+                            <a href="#">夹克</a>
+                            <a href="#">运动裤</a>
+                            <li>
+                            <i><img src="" alt="" /></i>运动女鞋
+                            </li>
+                            <a href="#">长袖</a>
+                            <a href="#">卫衣</a>
+                            <a href="#">夹克</a>
+                            <a href="#">运动裤</a>
+                            <li><i><img src="" alt="" /></i>搜索热词</li><a href="#">长袖</a>
+                            <a href="#">卫衣</a>
+                            <a href="#">夹克</a>
+                            <a href="#">运动裤</a>
+                            <li><i><img src="" alt="" /></i>热门系列</li><a href="#">长袖</a>
+                            <a href="#">卫衣</a>
+                            <a href="#">夹克</a>
+                            <a href="#">运动裤</a>
+                        </ul>
+                        </li>
+                        <li>
+                        <i><img src="../img/nav_erji.png" alt="" /></i>户外
+                        <ul id="nav_sjul">
+                            <li>
+                            <i><img src=""  alt="" /></i>运动男鞋
+                            
+                            </li>
+                            <a href="#">长袖</a>
+                            <a href="#">卫衣</a>
+                            <a href="#">夹克</a>
+                            <a href="#">运动裤</a>
+                            <li>
+                            <i><img src="" alt="" /></i>运动女鞋
+                            </li>
+                            <a href="#">长袖</a>
+                            <a href="#">卫衣</a>
+                            <a href="#">夹克</a>
+                            <a href="#">运动裤</a>
+                            <li><i><img src="" alt="" /></i>搜索热词</li><a href="#">长袖</a>
+                            <a href="#">卫衣</a>
+                            <a href="#">夹克</a>
+                            <a href="#">运动裤</a>
+                            <li><i><img src="" alt="" /></i>热门系列</li><a href="#">长袖</a>
+                            <a href="#">卫衣</a>
+                            <a href="#">夹克</a>
+                            <a href="#">运动裤</a>
+                        </ul>
+                        </li>
+                        <li>
+                        <i><img src="../img/nav_erji.png" alt="" /></i>童鞋
+                        <ul id="nav_sjul">
+                            <li>
+                            <i><img src=""  alt="" /></i>运动男鞋
+                            
+                            </li>
+                            <a href="#">长袖</a>
+                            <a href="#">卫衣</a>
+                            <a href="#">夹克</a>
+                            <a href="#">运动裤</a>
+                            <li>
+                            <i><img src="" alt="" /></i>运动女鞋
+                            </li>
+                            <a href="#">长袖</a>
+                            <a href="#">卫衣</a>
+                            <a href="#">夹克</a>
+                            <a href="#">运动裤</a>
+                            <li><i><img src="" alt="" /></i>搜索热词</li><a href="#">长袖</a>
+                            <a href="#">卫衣</a>
+                            <a href="#">夹克</a>
+                            <a href="#">运动裤</a>
+                            <li><i><img src="" alt="" /></i>热门系列</li><a href="#">篮球</a>
+                            <a href="#">篮球</a>
+                            <a href="#">篮球</a>
+                            <a href="#">篮球</a>
+                        </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#"><span>首页</span></a></li>
+                <li><a href="#"><span>运动休闲</span></a></li>
+                <li><a href="#"><span>跑步</span></a></li>
+                <li><a href="#"><span>篮球</span></a></li>
+                <li><a href="#"><span>足球</span></a></li>
+                <li><a href="#"><span>户外</span></a></li>
+                <li><a href="#"><span style="border:0;">配件</span></a></li>
+                <span class="nav_ewm"><img src="../img/nav_ewm.png" height="34" width="165" alt="" /><i><img  src="../img/nav_sm.png " alt="" /></i></span>
+                
+                
+            </ul>
+        </div>
+        <div class="nav_r fr">
+            <ul >
+                <li><a href="#"><img src="../img/zp.png" height="34" width="358" alt="" /></a></li>
+            </ul>
+        </div>          
+        </div>
+    </div>
+    <div id="youbianlan">
+        <div class="youbianlan">
+            <div class="s-rbar-tabnav s-rbar-tabs-top-wide on"> 
+            <div class="s-rbar-tab-logo s-rbar-tab-logo-hot fixpng"></div> 
+            <div class="s-rbar-tab-txt">热门活动</div> </div>
+            <div class="s-rbar-tabnav s-rbar-tab s-rbar-tab-brand "> <div class="s-rbar-tab-logo s-rbar-tab-logo-brand fixpng"></div> <div class="s-rbar-tab-txt">品牌分类</div> 
+            </div>
+           <div class="Carlist">
+               
+           </div>
+           <div class="Dingdan">
+               
+           </div>
+           <div class="Kefu">
+               
+           </div>
+        </div>
+
+    </div>
+        
+
+
+
+
+<!-- 放大镜 -->
+    <div class="container clearfix">
+        <div class="fdj fl">
+            <div class="magnify-box">
+            <div class="min-img">
+                <img src="">
+                <div class="mask"></div>
+            </div>
+            <div class="max-img">
+                <img src="" width="800" height="800">
+            </div>
+        </div>
+        <div class="img-list">
+            <ul>
+                <li class="imgli1"><img src="../img/min1.jpg"  alt=""></li>
+                <li class="imgli2"><img src="../img/min2.jpg" alt=""></li>
+                <li class="imgli3"><img src="../img/min3.jpg" alt=""></li>
+                <li class="imgli4"><img src="../img/min4.jpg" alt=""></li>
+            </ul>
+        </div>
+        </div>
+        
+        <div class="pricer fl">
+            <div class="goodnamewarp clfix"> <span class="morebrand">更多<a href="//www.s.cn/lining-brand.html" id="pro_view_more">李宁</a></span> <h1 class="goodsname">李宁新款男鞋运动生活系列经典休闲鞋运动鞋</h1> <div class="sp"></div> </div>
+
+            <ul class="goods-price list">  <li> <span>吊&nbsp;&nbsp;牌&nbsp;&nbsp;价：</span><del class="mktprice price_com">￥339.00 </del>  </li>  <li> <span>  销&nbsp;&nbsp;售&nbsp;&nbsp;价：  </span>  <span class="price1 salePrice_big"> ￥</span>  &nbsp;&nbsp;(&nbsp;5.9折&nbsp;)&nbsp;&nbsp; <span class="discount price_com">立省： ￥140.00 </span> </li>  <li>好&nbsp;&nbsp;评&nbsp;&nbsp;度：&nbsp;&nbsp;<span class="comCountBar"><i style="width:100%"></i></span>&nbsp;&nbsp;-分 &nbsp;&nbsp;(<a href="#commentTips" class="comCount">已有0人评论</a>)</li> <li>运&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;费：&nbsp;&nbsp;名鞋库会员满399包邮&nbsp;&nbsp;(&nbsp;不包括货到付款&nbsp;) </li> <li style="color:#ff8383">温馨提示：本款不支持货到付款</li> </ul>
+            
+            <div class="push_sale"> <div class="sbg"> <div class="t">促销信息</div> <div class="scon"> 满200减20&nbsp;&nbsp;限购3件 </div> </div> </div>
+
+            <div class="hightbox">  <div id="goods-spec" class="goods-spec"> <input type="hidden" id="sizeNotifyGoodsId" name="sizeNotifyGoodsId" value="112116"> <input type="hidden" name="goods[product_id]" value="" disabled="">  <table id="specinfo" width="100%" border="0" cellpadding="0" cellspacing="0">  <tbody><tr class="spec-item specItem spec-item1"> <th><span><em class="min-w">尺码</em>：</span></th> <td><ul>  <li> <a rel="nofollow" size_id="46" href="//www.s.cn/lining-ALCL061-2.html?new_size=46@|146495565911" specvid="146495565911" specid="46" class="">  <span><nobr>39</nobr></span>  <i title="点击取消选择">&nbsp;</i> </a> </li>  <li> <a rel="nofollow" size_id="46" href="//www.s.cn/lining-ALCL061-2.html?new_size=46@|146495565921" specvid="146495565921" specid="46" class="">  <span><nobr>39.5</nobr></span>  <i title="点击取消选择">&nbsp;</i> </a> </li>  <li> <a rel="nofollow" size_id="46" href="//www.s.cn/lining-ALCL061-2.html?new_size=46@|146495565931" specvid="146495565931" specid="46" class="">  <span><nobr>40</nobr></span>  <i title="点击取消选择">&nbsp;</i> </a> </li>  <li> <a rel="nofollow" size_id="46" href="//www.s.cn/lining-ALCL061-2.html?new_size=46@|146495565941" specvid="146495565941" specid="46" class="">  <span><nobr>41</nobr></span>  <i title="点击取消选择">&nbsp;</i> </a> </li>  <li> <a rel="nofollow" size_id="46" href="//www.s.cn/lining-ALCL061-2.html?new_size=46@|146495565951" specvid="146495565951" specid="46" class="">  <span><nobr>41.5</nobr></span>  <i title="点击取消选择">&nbsp;</i> </a> </li>  <li> <a rel="nofollow" size_id="46" href="//www.s.cn/lining-ALCL061-2.html?new_size=46@|146495565961" specvid="146495565961" specid="46" class="">  <span><nobr>42</nobr></span>  <i title="点击取消选择">&nbsp;</i> </a> </li>  <li> <a rel="nofollow" size_id="46" href="//www.s.cn/lining-ALCL061-2.html?new_size=46@|146495565971" specvid="146495565971" specid="46" class="">  <span><nobr>43</nobr></span>  <i title="点击取消选择">&nbsp;</i> </a> </li>  <li> <a rel="nofollow" size_id="46" href="//www.s.cn/lining-ALCL061-2.html?new_size=46@|146495565981" specvid="146495565981" specid="46" class="">  <span><nobr>43.5</nobr></span>  <i title="点击取消选择">&nbsp;</i> </a> </li>  <li> <a rel="nofollow" size_id="46" href="//www.s.cn/lining-ALCL061-2.html?new_size=46@|146495565991" specvid="146495565991" specid="46" class="">  <span><nobr>44</nobr></span>  <i title="点击取消选择">&nbsp;</i> </a> </li>  </ul></td> </tr>  <tr class="spec-item specItem spec-item1"> <th><span><em class="min-w check">颜色</em>：</span></th> <td><ul>  <li> <a class="selected" rel="nofollow" href="//www.s.cn/lining-ALCL061-2.html?宝蓝色=25@|1464955659" specvid="1464955659" specid="25" color_id="25">  <img src="//images.s.cn/images/20160603/3da5cd671ecc4203.jpg" alt="黑+米白" title="黑+米白" width="30" height="30">  <i>&nbsp;</i> </a> </li>  </ul></td> </tr>  </tbody></table>   </div>
+            
+            <!-- 点击加入购物车 -->
+            <div class="btnBar clearfix"style="margin-top:100px;">  
+            <div class="btnsBox" style="width:315px;right:5px">  
+            <input  class="actbtn btn-buy cart_login " value="" type="submit" >  
+            <input  class="actbtn btn-fastbuy " value="" type="button" style="visibility: visible; cursor: pointer;">  
+            
+
+
+
+            </div> 
+            <ul class="fav_ul" style="bottom:75px;right:5px"> <li class="star-off" title="李宁新款男鞋运动生活系列经典休闲鞋运动鞋"><a href="//www.s.cn/passport-login.html" id="pro_view_favorite_nologin" class="btn-fav">&nbsp;&nbsp;收藏此商品</a> </li> 
+            </ul>  
+            </div>
+            
+
+            <div class="scn_baozheng"><i>名鞋库保障：</i>&nbsp;<img src="//images.s.cn/statics/zheng.png">&nbsp;正品认证&nbsp;&nbsp;&nbsp;&nbsp;<img src="//images.s.cn/statics/tui.png">&nbsp;自由退货&nbsp;&nbsp;&nbsp;&nbsp;<img src="//images.s.cn/statics/mian.png">&nbsp;全场满399免邮</div>
+
+
+
+        </div>
+    </div>
+        
+        <div class="spxq">
+            <div class="goodsDetailTab active"><span>商品详情</span></div>
+        </div>
+        <div id="xqtu">
+            <div class="xqtu">
+                <img src="../img/xqxqtu1.jpg" height="2020" width="990" alt="" />
+                <img src="../img/xqxqtu2.jpg" height="999" width="750" alt="" style="margin:0 auto;"/>
+                <img src="../img/xqxqtu3.jpg" height="875" width="750" alt="" />
+                <img src="../img/xqxqtu4.jpg" height="780" width="750" alt="" />
+                <img src="../img/xqxqtu5.jpg" height="780" width="750" alt="" />
+                <img src="../img/xqxqtu6.jpg" height="780" width="750" alt="" />
+                <img src="../img/xqxqtu7.jpg" height="780" width="750" alt="" />
+                <img src="../img/xqxqtu8.jpg" height="780" width="750" alt="" />
+                <img src="../img/xqxqtu9.jpg" height="780" width="750" alt="" />
+            </div>
+        </div>
+        
+
+        
+
+        <div class="footbrand" style="width: 892px;"> <a onclick="ga('send','event', '共同底部', '品牌墙', '耐克');" target="_blank" href="//www.s.cn/nike-brand.html" class="nike"><span></span>耐克</a> <a onclick="ga('send','event', '共同底部', '品牌墙', '阿迪达斯');" target="_blank" href="//www.s.cn/adidas-brand.html" class="adidas"><span></span>阿迪达斯</a> <a onclick="ga('send','event', '共同底部', '品牌墙', '三叶草');" target="_blank" href="//www.s.cn/originals-brand.html" class="syc"><span></span>三叶草</a> <a onclick="ga('send','event', '共同底部', '品牌墙', 'NEO');" target="_blank" href="//www.s.cn/neo-brand.html" class="neo"><span></span>NEO</a> <a onclick="ga('send','event', '共同底部', '品牌墙', '新百伦');" target="_blank" href="//www.s.cn/newbalance-brand.html" class="nb"><span></span>新百伦</a> <a onclick="ga('send','event', '共同底部', '品牌墙', '匡威');" target="_blank" href="//www.s.cn/converse-brand.html" class="converse"><span></span>匡威</a> <a onclick="ga('send','event', '共同底部', '品牌墙', '斯凯奇');" target="_blank" href="//www.s.cn/skechers-brand.html" class="skq"><span></span>斯凯奇</a> <a onclick="ga('send','event', '共同底部', '品牌墙', '彪马');" target="_blank" href="//www.s.cn/puma-brand.html" class="puma"><span></span>彪马</a> <a onclick="ga('send','event', '共同底部', '品牌墙', '万斯');" target="_blank" href="//www.s.cn/vans-brand.html" class="vans last"><span></span>万斯</a> <a onclick="ga('send','event', '共同底部', '品牌墙', '亚瑟士');" target="_blank" href="//www.s.cn/yaseshi-brand.html" class="asics"><span></span>亚瑟士</a> <a onclick="ga('send','event', '共同底部', '品牌墙', '茵宝');" target="_blank" href="//www.s.cn/list/umbro" class="umbro"><span></span>茵宝</a> <a onclick="ga('send','event', '共同底部', '品牌墙', 'DC');" target="_blank" href="//www.s.cn/dc-brand.html" class="dc"><span></span>DC</a> <!--<a onClick="ga('send','event', '共同底部', '品牌墙', '安踏');" target="_blank" href="//www.s.cn/anta-brand.html" class="anta"><span></span>安踏</a>--> <a onclick="ga('send','event', '共同底部', '品牌墙', '李宁');" target="_blank" href="//www.s.cn/lining-brand.html" class="lining"><span></span>李宁</a> <!--<a onClick="ga('send','event', '共同底部', '品牌墙', '探路者');" target="_blank" href="//www.s.cn/list/toread" class="troead"><span></span>探路者</a>--> <a onclick="ga('send','event', '共同底部', '品牌墙', '耐克童鞋');" target="_blank" href="//www.s.cn/list/nike-0b6" class="nike_tx"><span></span>耐克童鞋</a> <a onclick="ga('send','event', '共同底部', '品牌墙', '阿迪童鞋');" target="_blank" href="//www.s.cn/list/0a2_0a70-0b6-od7" class="adidas_tx"><span></span>阿迪童鞋</a> <a onclick="ga('send','event', '共同底部', '品牌墙', '彪马童鞋');" target="_blank" href="//www.s.cn/list/puma-0b6" class="puma_tx"><span></span>彪马童鞋</a> <a onclick="ga('send','event', '共同底部', '品牌墙','斯凯奇童鞋');" target="_blank" href="//www.s.cn/list/skechers-0b6" class="skq_tx"><span></span>斯凯奇童鞋</a> <a onclick="ga('send','event', '共同底部', '品牌墙', '迪斯尼');" target="_blank" href="//www.s.cn/list/disney-0b6" class="disney last"><span></span>迪斯尼</a> </div>
+    
+    <div class="btmfenlei_hd"><h3>商品分类</h3></div>
+    
+    <div class="btmfenlei_body"> <dl> <dt><a href="//www.s.cn/list/0b1-0c1" target="_blank"><s>运动鞋</s><img src="//images.s.cn/images/goods/20150406/b27c38be14ea1773.jpg" width="80" height="80" border="0"></a></dt> <dd> <a href="//www.s.cn/list/0b1-0c1" target="_blank">运动鞋</a> <a href="//www.s.cn/list/0c1-0d7" target="_blank">户外鞋</a> <a href="//www.s.cn/list/0c1-0d1" target="_blank">跑步鞋</a> <a href="//www.s.cn/list/0c1-0d4" target="_blank">篮球鞋</a> <a href="//www.s.cn/list/0c1-0d8" target="_blank">足球鞋</a> <a href="//www.s.cn/list/0c1-0d6" target="_blank">训练鞋</a> <a href="//www.s.cn/list/0c1-0d15" target="_blank">徒步鞋</a> <a href="//www.s.cn/list/0c1-0d26" target="_blank">登山鞋</a> <a href="//www.s.cn/list/0c1-0d62" target="_blank">健步鞋</a> <a href="//www.s.cn/list/0c1-0d9" target="_blank">网球鞋</a> <a href="//www.s.cn/list/0c1-0d12" target="_blank">赛车鞋</a> <a href="//www.s.cn/list/0c1-0d27" target="_blank">溯溪鞋</a> </dd> </dl> <dl> <dt><a href="//www.s.cn/list/0c1-0d3" target="_blank"><s>运动休闲鞋</s><img src="//images.s.cn/images/goods/20150505/eaca832991cd33eb.jpg" width="80" height="80" border="0"></a></dt> <dd> <a href="//www.s.cn/list/0c1-0d5" target="_blank">帆布鞋</a> <a href="//www.s.cn/list/0c1-0d3" target="_blank">休闲鞋</a> <a href="//www.s.cn/list/0c1-0d23" target="_blank">豆豆鞋</a> <a href="//www.s.cn/list/0c1-0d10" target="_blank">拖鞋</a> <a href="//www.s.cn/list/0c1-0d21" target="_blank">靴子</a> <a href="//www.s.cn/list/0c1-0d2" target="_blank">板鞋</a> <a href="//www.s.cn/list/0c1-0f1" target="_blank">男鞋</a> <a href="//www.s.cn/list/0c1-0f2" target="_blank">女鞋</a> <a href="//www.s.cn/list/0c1-0d22" target="_blank">单鞋</a> <a href="//www.s.cn/list/0c1-0d17" target="_blank">皮鞋</a> <a href="//www.s.cn/list/0c1-0d66" target="_blank">沙滩鞋</a> <a href="//www.s.cn/list/0b6-0c1" target="_blank">儿童鞋</a> </dd> </dl> <dl> <dt><a href="//www.s.cn/list/0c2" target="_blank"><s>服装</s><img src="//images.s.cn/images/goods/20140514/e3ad91c15695e022.jpg" width="80" height="80" border="0"></a></dt> <dd> <a href="//www.s.cn/list/0b1-0c2" target="_blank">运动服</a> <a href="//www.s.cn/list/0c2-0f1" target="_blank">男运动服</a> <a href="//www.s.cn/list/0c2-0f2" target="_blank">女运动服</a> <a href="//www.s.cn/list/0c2-0d13" target="_blank">运动裤</a> <a href="//www.s.cn/list/0c2-0d29" target="_blank">卫衣</a> <a href="//www.s.cn/list/0c2-0d30" target="_blank">夹克</a> <a href="//www.s.cn/list/0c2-0d53" target="_blank">T恤</a> <a href="//www.s.cn/list/0c2-0d31" target="_blank">外套</a> <a href="//www.s.cn/list/0c2-0d34" target="_blank">冲锋衣</a> <a href="//www.s.cn/list/0c2-0d32" target="_blank">棉服</a> <a href="//www.s.cn/list/0c2-0d33" target="_blank">羽绒服</a> <a href="//www.s.cn/list/0c2-0d68" target="_blank">休闲裤</a> </dd> </dl> <dl> <dt><a href="//www.s.cn/list/0c3" target="_blank"><s>包包/配件</s><img src="//images.s.cn/images/goods/20150428/4c226952f216d954.jpg" width="80" height="80" border="0"></a></dt> <dd> <a href="//www.s.cn/list/0b1-0c3" target="_blank">运动包</a> <a href="//www.s.cn/list/0b4-0c3" target="_blank">户外包</a> <a href="//www.s.cn/list/0c3-0d42" target="_blank">双肩包</a> <a href="//www.s.cn/list/0c3-0d43" target="_blank">单肩包</a> <a href="//www.s.cn/list/0c3-0d44" target="_blank">腰包</a> <a href="//www.s.cn/list/0c3-0d45" target="_blank">手拎包</a> <a href="//www.s.cn/list/0c3-0f1" target="_blank">男包</a> <a href="//www.s.cn/list/0c3-0f2" target="_blank">女包</a> <a href="//www.s.cn/list/0c4-0d46" target="_blank">帽子</a> <a href="//www.s.cn/list/0c4-0d47" target="_blank">袜子</a> <a href="//www.s.cn/list/0c4-0d48" target="_blank">足球</a> <a href="//www.s.cn/list/0c4-0d59" target="_blank">篮球</a> </dd> </dl> </div>
+
+    <div class="warp"><a href="#" target="_blank"><img src="//images.s.cn/images/2012/1024/foot-goto-i.jpg"></a></div>
+
+
+
+    <div id="bottom">
+        <div class="bottom container">
+            <div class="bottom_l fl">
+                <p><b>客服热线(免长途费)</b></p>
+                <p>400 116 2228</p>
+                <p>客服时间:9:00-24:00</p>
+                <p>周末/假日:10:00-24:00</p>
+                <p><img src="../img/bottom_lsm.jpg" height="94" width="78" alt="" /></p>
+                <p><img src="../img/bottom_lsm.jpg" height="94" width="78" alt="" /></p>
+            </div>
+            <div class="bottom_r fl">
+                <div class="fl">
+                    <p class="p1">
+                        <b><a href="#">正品保障</a></b><br />
+                        专业精选 正品护航
+                    </p>
+                    <p class="p2">
+                        <a href="#">支付方式</a>
+                    </p>
+                    <p class="p3">
+                        <a href="#">在线支付</a><br />
+                        <a href="#">货到付款</a><br />
+                        <a href="#">发票说明</a>
+                    </p>
+                </div>
+                <div class="fl">
+                    <p class="p1">
+                        <b><a href="#">正品保障</a></b><br />
+                        专业精选 正品护航
+                    </p>
+                    <p class="p2">
+                        <a href="#">支付方式</a>
+                    </p>
+                    <p class="p3">
+                        <a href="#">在线支付</a><br />
+                        <a href="#">货到付款</a><br />
+                        <a href="#">发票说明</a>
+                    </p>
+                </div>
+                <div class="fl">
+                    <p class="p1">
+                        <b><a href="#">正品保障</a></b><br />
+                        专业精选 正品护航
+                    </p>
+                    <p class="p2">
+                        <a href="#">支付方式</a>
+                    </p>
+                    <p class="p3">
+                        <a href="#">在线支付</a><br />
+                        <a href="#">货到付款</a><br />
+                        <a href="#">发票说明</a>
+                    </p>
+                </div>
+                <div class="fl">
+                    <p class="p1">
+                        <b><a href="#">正品保障</a></b><br />
+                        专业精选 正品护航
+                    </p>
+                    <p class="p2">
+                        <a href="#">支付方式</a>
+                    </p>
+                    <p class="p3">
+                        <a href="#">在线支付</a><br />
+                        <a href="#">货到付款</a><br />
+                        <a href="#">发票说明</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="c777">
+        <div class="row02 c777"> <span><a rel="nofollow" href="//www.s.cn/page-introduce.html" target="_blank">关于名鞋库</a>&nbsp;|&nbsp;<a href="//www.s.cn/artlist-100.html" target="_blank">名鞋库资讯</a>&nbsp;|&nbsp;<a rel="nofollow" href="/page-aboutcontact.html" target="_blank">联系名鞋库</a>&nbsp;|&nbsp;<a rel="nofollow" href="/page-scnjob.html" target="_blank">人才招聘</a>&nbsp;|&nbsp;<a rel="nofollow" href="/page-Disclaimer.html" target="_blank">免责条款 </a>&nbsp;|&nbsp;<a rel="nofollow" href="/page-Copyright.html" target="_blank">法律声明</a>&nbsp;|&nbsp;<a rel="nofollow" href="/suggest.html" target="_blank">意见反馈</a>&nbsp;|&nbsp;<a href="/page-Sitemap.html" target="_blank">全部分类</a>&nbsp;|&nbsp;<a href="/link-showList.html" target="_blank">友情链接</a>&nbsp;|&nbsp;<a href="/page-chimahedui.html" target="_blank">鞋码对照表</a>&nbsp;|&nbsp;<a href="http://faq.s.cn" target="_blank">问答</a><a href="//www.s.cn/qalist.html" target="_blank">咨询</a><a href="http://tag.s.cn/" target="_blank">标签</a><a href="//www.s.cn/topic/" target="_blank">主题</a>&nbsp;|&nbsp;<a href="//www.s.cn/page-brandhall.html" target="_blank">鞋子品牌大全</a>&nbsp;|&nbsp;<a href="//www.s.cn/pa.html" target="_blank">商品大全</a></span> <div class="cl"></div> Copyright&nbsp;©&nbsp;2008-2014 <s>s.cn</s> <a href="//www.s.cn" target="_blank">名鞋库</a> All Rights Reserved.&nbsp;&nbsp;&nbsp;&nbsp;<a rel="nofollow" href="http://www.miibeian.gov.cn" target="_blank">闽ICP备08106896号</a>&nbsp;&nbsp;&nbsp;&nbsp;经营许可证闽B2-20110061&nbsp;&nbsp;&nbsp;&nbsp;<a rel="nofollow" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=35020602000166" target="_blank"><img src="//images.s.cn/images/css/20160617.png">闽公网安备 35020602000166号</a> </div>
+    </div>
+    
+    <div id="row03">
+        <div class="row03"><a rel="nofollow" href="//www.s.cn/page-xm12315.html" target="_blank"><img src="//images.s.cn/images/css/2014052815006.png" width="112" height="47"></a><a rel="nofollow" href="http://222.76.242.83:8080/ei/Ei!certificate.action?id=40288a853e21bbd2013e2f90bf410004" target="_blank"><img src="//images.s.cn/images/css/2014052815007.png" width="112" height="47"></a><a rel="nofollow" href="//www.s.cn/article-592.html" target="_blank"><img src="//images.s.cn/images/css/20140528150010.png" width="112" height="47"></a><a href="http://www.anquan.org/authenticate/cert/?site=www.s.cn&amp;at=realname" target="_blank" style="width:124px;border:0"><img width="124" height="47" src="//static.anquan.org/static/outer/image/sm_124x47.png" style="border: medium none;" alt="安全联盟认证"></a> </div>
+    
+    </div>
+
+    </div>
+
+    
+</body>
+</html>
